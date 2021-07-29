@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "164ea45e-765b-4592-b104-1da0e4abb37b": {
+        "id": "164ea45e-765b-4592-b104-1da0e4abb37b",
+        "parent": null,
+        "name": "testGithub338.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testGithub338.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 54
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testGithub338"
+        },
+        "triggers": [
+          {
+            "resourceName": "apig4444dany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1627553320902
+      }
+    },
+    "openFiles": [
+      "164ea45e-765b-4592-b104-1da0e4abb37b"
+    ],
+    "currentFileId": "164ea45e-765b-4592-b104-1da0e4abb37b",
+    "resources": {
+      "apig4444dany": {
+        "name": "apig4444dany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "4444",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "d",
+          "resourcePath": "/d",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "stg",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.3",
+    "projectName": "testGithub338",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1627553359460
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testgithub338",
+      "url": "https://github.com/Indunil1992/testgithub338"
+    }
+  }
+}
