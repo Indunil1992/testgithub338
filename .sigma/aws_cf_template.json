@@ -158,7 +158,22 @@
               }
             }
           ]
-        }
+        },
+        "Policies": [
+          {
+            "PolicyName": "testGithub338Policy",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": "s3:ListBucket",
+                  "Resource": "arn:aws:s3:::induuuu"
+                }
+              ]
+            }
+          }
+        ]
       }
     },
     "apig4444dANYPermission": {
@@ -183,7 +198,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apig4444Deployment1627553373700": {
+    "apig4444Deployment1627553445470": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {

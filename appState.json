@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testGithub338.js",
         "cursor": {
-          "lineNumber": 3,
-          "column": 54
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -29,6 +29,16 @@
           }
         ],
         "lastUpdated": 1627553320902
+      },
+      "cde7c03c-7974-4788-ba5a-8ba309c9aff2": {
+        "id": "cde7c03c-7974-4788-ba5a-8ba309c9aff2",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
       }
     },
     "openFiles": [
@@ -54,6 +64,16 @@
           "stageName": "stg",
           "mode": 0
         }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -73,7 +93,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -85,7 +113,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1627553359460
+    "lastSave": 1627553427948
   },
   "VCS_STATE": {
     "provider": "GitHub",
